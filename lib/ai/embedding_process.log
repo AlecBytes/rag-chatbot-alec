@@ -1,0 +1,162 @@
+2025-03-03 12:33:10,165 - embed-chunks - INFO - Loading chunks from chunks.yaml file
+2025-03-03 12:33:10,166 - embed-chunks - ERROR - Failed to load chunks: 'charmap' codec can't decode byte 0x9d in position 1417: character maps to <undefined>
+2025-03-03 12:37:02,790 - embed-chunks - INFO - Loading chunks from chunks.yaml file
+2025-03-03 12:37:02,792 - embed-chunks - INFO - Successfully loaded 6 chunks from YAML file
+2025-03-03 12:37:02,793 - embed-chunks - INFO - OpenAI API key loaded from environment variables
+2025-03-03 12:37:02,793 - embed-chunks - INFO - Connecting to database
+2025-03-03 12:37:03,127 - embed-chunks - INFO - Database connection established
+2025-03-03 12:37:03,127 - embed-chunks - INFO - Beginning processing of chunks
+2025-03-03 12:37:03,128 - embed-chunks - INFO - Processing chunk: chunk1
+2025-03-03 12:37:03,128 - embed-chunks - ERROR - Error getting embedding: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,129 - embed-chunks - ERROR - Failed to process chunk chunk1: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,129 - embed-chunks - INFO - Processing chunk: chunk2
+2025-03-03 12:37:03,130 - embed-chunks - ERROR - Error getting embedding: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,130 - embed-chunks - ERROR - Failed to process chunk chunk2: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,131 - embed-chunks - INFO - Processing chunk: chunk3
+2025-03-03 12:37:03,131 - embed-chunks - ERROR - Error getting embedding: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,132 - embed-chunks - ERROR - Failed to process chunk chunk3: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,133 - embed-chunks - INFO - Processing chunk: chunk4
+2025-03-03 12:37:03,133 - embed-chunks - ERROR - Error getting embedding: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,134 - embed-chunks - ERROR - Failed to process chunk chunk4: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,135 - embed-chunks - INFO - Processing chunk: chunk5
+2025-03-03 12:37:03,135 - embed-chunks - ERROR - Error getting embedding: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,136 - embed-chunks - ERROR - Failed to process chunk chunk5: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,137 - embed-chunks - INFO - Processing chunk: chunk6
+2025-03-03 12:37:03,137 - embed-chunks - ERROR - Error getting embedding: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,138 - embed-chunks - ERROR - Failed to process chunk chunk6: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-03-03 12:37:03,138 - embed-chunks - INFO - Processing complete. Successfully processed 0 chunks. Failed: 6
+2025-03-03 12:37:03,139 - embed-chunks - INFO - Database connection closed
+2025-03-03 12:42:00,358 - embed-chunks - INFO - Loading chunks from chunks.yaml file
+2025-03-03 12:42:00,360 - embed-chunks - INFO - Successfully loaded 6 chunks from YAML file
+2025-03-03 12:42:00,360 - embed-chunks - INFO - OpenAI API key loaded from environment variables
+2025-03-03 12:42:00,361 - embed-chunks - INFO - Connecting to database
+2025-03-03 12:42:00,695 - embed-chunks - INFO - Database connection established
+2025-03-03 12:42:00,696 - embed-chunks - INFO - Beginning processing of chunks
+2025-03-03 12:42:00,696 - embed-chunks - INFO - Processing chunk: chunk1
+2025-03-03 12:42:02,197 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-03 12:42:02,527 - embed-chunks - INFO - Successfully processed chunk chunk1 with resource id 0a43e58d-08dc-4b8b-9a08-e5b3c34f1217
+2025-03-03 12:42:02,527 - embed-chunks - INFO - Processing chunk: chunk2
+2025-03-03 12:42:03,078 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-03 12:42:03,320 - embed-chunks - INFO - Successfully processed chunk chunk2 with resource id 31476bfe-56e2-4197-80e2-d6a02a633a71
+2025-03-03 12:42:03,321 - embed-chunks - INFO - Processing chunk: chunk3
+2025-03-03 12:42:03,795 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-03 12:42:04,028 - embed-chunks - INFO - Successfully processed chunk chunk3 with resource id c946877e-bf00-4c1e-a547-9addd678bafe
+2025-03-03 12:42:04,028 - embed-chunks - INFO - Processing chunk: chunk4
+2025-03-03 12:42:04,699 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-03 12:42:04,934 - embed-chunks - INFO - Successfully processed chunk chunk4 with resource id 5e0f014e-ed84-48bd-bf2a-c9b64ba7b5c5
+2025-03-03 12:42:04,934 - embed-chunks - INFO - Processing chunk: chunk5
+2025-03-03 12:42:05,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-03 12:42:05,342 - embed-chunks - INFO - Successfully processed chunk chunk5 with resource id 89e7bcce-3de7-4968-a53d-5ea814a2fef5
+2025-03-03 12:42:05,342 - embed-chunks - INFO - Processing chunk: chunk6
+2025-03-03 12:42:05,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-03 12:42:05,989 - embed-chunks - INFO - Successfully processed chunk chunk6 with resource id f7260d93-0529-4964-8ce7-a2c1b8933617
+2025-03-03 12:42:05,989 - embed-chunks - INFO - Processing complete. Successfully processed 6 chunks. Failed: 0
+2025-03-03 12:42:05,990 - embed-chunks - INFO - Database connection closed

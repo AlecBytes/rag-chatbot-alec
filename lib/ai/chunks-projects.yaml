@@ -1,0 +1,7 @@
+chunk1: >
+  Project Name: ChainLink.
+  Description: ChainLink is a platform that helps cyclists connect, discover group rides, and match with other riders based on their skills, preferences, and location.
+  Contribution: Contributed as part of a 4-person development team working to bring the prototype to production readiness for use by the University of Florida Cycling Club.
+  Features: Feature Flags (Toggle experimental features on/off); Friend System (Send, accept, and manage friendships); Ride Sharing (Discover and join group rides); Password Reset (Secure account recovery); Private Profiles (Control who sees your data); Profile Pictures (Personalize your profile).
+  Tech Stack: Frontend - React.js; Backend - Node.js, Apollo GraphQL (data fetching), MongoDB Atlas (Cloud-hosted NoSQL database).
+  Deployment: AWS EC2 (Server hosting), MongoDB Cloud (Database hosting).

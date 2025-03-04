@@ -1,0 +1,2 @@
+2025-03-03 12:32:15,971 - embed-chunks - INFO - Loading chunks from chunks.yaml file
+2025-03-03 12:32:15,971 - embed-chunks - ERROR - Failed to load chunks: [Errno 2] No such file or directory: 'chunks.yaml'

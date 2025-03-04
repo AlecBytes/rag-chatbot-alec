@@ -2,7 +2,7 @@
 
 import { Input } from "@/components/ui/input";
 import { Message } from "ai";
-import { useChat } from "ai/react";
+import { useChat } from "@ai-sdk/react";
 import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import ReactMarkdown, { Options } from "react-markdown";
@@ -29,6 +29,14 @@ export default function Chat() {
 
   useEffect(() => {
     if (messages.length > 0) setIsExpanded(true);
+  }, [messages]);
+
+  // Reset toolCall when a new assistant message is received
+  useEffect(() => {
+    const lastMessage = messages[messages.length - 1];
+    if (lastMessage && lastMessage.role !== 'user') {
+      setToolCall(undefined);
+    }
   }, [messages]);
 
   const currentToolCall = useMemo(() => {
