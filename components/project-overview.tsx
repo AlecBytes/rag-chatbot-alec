@@ -18,34 +18,27 @@ const ProjectOverview = () => {
           <InformationIcon />
         </p>
         <p>
-          The{" "}
+          <span className="font-semibold text-neutral-800 dark:text-neutral-200">Alec's Professional AI Assistant</span> - Ask me anything about Alec's experience, education, skills, projects, and career accomplishments.
+        </p>
+        <p>
+          This chatbot uses retrieval augmented generation (RAG) to access and present accurate information about Alec's professional background. Feel free to ask specific questions about his qualifications, technical expertise, work history, or educational background.
+        </p>
+        <p>
+          Built with the{" "}
           <Link
             href="https://sdk.vercel.ai/docs/reference/ai-sdk-ui/use-chat"
             className="text-blue-500"
           >
             useChat
           </Link>{" "}
-          hook along with the{" "}
+          hook and{" "}
           <Link
             href="https://sdk.vercel.ai/docs/reference/ai-sdk-core/stream-text"
             className="text-blue-500"
           >
             streamText
           </Link>{" "}
-          function allows you to build applications with retrieval augmented
-          generation (RAG) capabilities. Data is stored as vector embeddings
-          using DrizzleORM and PostgreSQL.
-        </p>
-        <p>
-          Learn how to build this project by following this{" "}
-          <Link
-            className="text-blue-500"
-            href="https://sdk.vercel.ai/docs/guides/rag-chatbot"
-            target="_blank"
-          >
-            guide
-          </Link>
-          .
+          function from the Vercel AI SDK, this assistant leverages vector embeddings stored in PostgreSQL to provide accurate and relevant responses.
         </p>
       </div>
     </motion.div>
