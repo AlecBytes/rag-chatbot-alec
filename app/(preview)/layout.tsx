@@ -3,10 +3,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ai-sdk-preview-rag.vercel.app"),
-  title: "Retrieval Augmented Generation Preview",
+  metadataBase: new URL("https://www.alecbytes.com/chatbot"),
+  title: "Chatbot Alec",
   description:
-    "Augment language model generations with vector based retrieval using the Vercel AI SDK",
+    "Ask a RAG chatbot questions about Alec.",
 };
 
 export default function RootLayout({
