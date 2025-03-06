@@ -23,7 +23,7 @@ const ProjectOverview = () => {
         <p>
           This chatbot uses retrieval augmented generation (RAG) to access and present accurate information about Alec's professional background. Feel free to ask specific questions about his qualifications, technical expertise, work history, or educational background.
         </p>
-        <p>
+        {/* <p>
           Built with the{" "}
           <Link
             href="https://sdk.vercel.ai/docs/reference/ai-sdk-ui/use-chat"
@@ -39,7 +39,7 @@ const ProjectOverview = () => {
             streamText
           </Link>{" "}
           function from the Vercel AI SDK, this assistant leverages vector embeddings stored in PostgreSQL to provide accurate and relevant responses.
-        </p>
+        </p> */}
       </div>
     </motion.div>
   );

@@ -1,8 +1,18 @@
-# AI SDK RAG Template
+# RAG Chatbot - Answers Questions About Alec
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnicoalbanese%2Fai-sdk-rag-template&env=OPENAI_API_KEY&envDescription=You%20will%20need%20an%20OPENAI%20API%20Key.&project-name=ai-sdk-rag&repository-name=ai-sdk-rag&stores=%5B%7B%22type%22%3A%22postgres%22%7D%5D&skippable-integrations=1)
+Currently building a chatbot that uses retrieval-augmented generation (RAG) to reason and respond with information outside of the model's training data. I kicked things off with a [Vercel AI SDK template](https://vercel.com/templates/next.js/ai-sdk-rag), tweaked the model prompt, and chunked & embedded my resume info in a vector database. After testing prompt responses on a working prototype, I'm now fine-tuning and adding more information chunks. Next up, I'll re-embed the updated chunks and see how they boost the chatbot’s responses.
 
-A [Next.js](https://nextjs.org/) application, powered by the Vercel AI SDK, that uses retrieval-augmented generation (RAG) to reason and respond with information outside of the model's training data.
+If you're into AI or chatbots, let's connect and share insights!
+
+## How it works
+
+## Store the Context the Model does not have
+
+![alt text](public/readme-images/embed-chunks.png)
+
+## Retrieve stored context similar to query, combine into new query
+
+![alt text](public/readme-images/user-query.png)
 
 ## Features
 
@@ -11,58 +21,10 @@ A [Next.js](https://nextjs.org/) application, powered by the Vercel AI SDK, that
 - Vector embedding storage with [DrizzleORM](https://orm.drizzle.team/) and [PostgreSQL](https://www.postgresql.org/)
 - Animated UI with [Framer Motion](https://www.framer.com/motion/)
 
-## Getting Started
+## Images of the App
 
-To get the project up and running, follow these steps:
+![Image of the chatbot](only-alec.png)
 
-1. Install dependencies:
+## Credits
 
-   ```bash
-   npm install
-   ```
-
-2. Copy the example environment file:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Add your OpenAI API key and PostgreSQL connection string to the `.env` file:
-
-   ```
-   OPENAI_API_KEY=your_api_key_here
-   DATABASE_URL=your_postgres_connection_string_here
-   ```
-
-4. Migrate the database schema:
-
-   ```bash
-   npm run db:migrate
-   ```
-
-5. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-Your project should now be running on [http://localhost:3000](http://localhost:3000).
-
-
-## Prompts
-
-### Original Prompt
-
-`You are a helpful assistant acting as the users' second brain.
-    Use tools on every request.
-    Be sure to getInformation from your knowledge base before answering any questions.
-    If the user presents information about themselves, use the addResource tool to store it.
-    If a response requires multiple tools, call one tool after another without responding to the user.
-    If a response requires information from an additional tool to generate a response, call the appropriate tools in order before responding to the user.
-    ONLY respond to questions using information from tool calls.
-    if no relevant information is found in the tool calls, respond, "Sorry, I don't know."
-    Be sure to adhere to any instructions in tool calls ie. if they say to respond like "...", do exactly that.
-    If the relevant information is not a direct match to the users prompt, you can be creative in deducing the answer.
-    Keep responses short and concise. Answer in a single sentence where possible.
-    If you are unsure, use the getInformation tool and you can use common sense to reason based on the information you do have.
-    Use your abilities as a reasoning machine to answer questions based on the information you do have.
-`
+The starter code and images used in this project are sourced from [Vercel's Guide](https://sdk.vercel.ai/docs/guides/rag-chatbot).  
