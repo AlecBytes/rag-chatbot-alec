@@ -17,6 +17,7 @@ export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit, isLoading } =
     useChat({
       maxSteps: 4,
+      api: "/chatbot/api/chat",
       onToolCall({ toolCall }) {
         setToolCall(toolCall.toolName);
       },
