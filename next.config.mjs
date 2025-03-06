@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    assetPrefix: '/chatbot',
+    reactStrictMode: true,
+    basePath: '/chatbot',
 };
 
 export default nextConfig;
