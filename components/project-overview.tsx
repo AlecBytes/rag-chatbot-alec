@@ -18,10 +18,10 @@ const ProjectOverview = () => {
           <InformationIcon />
         </p>
         <p>
-          <span className="font-semibold text-neutral-800 dark:text-neutral-200">Alec's Professional AI Assistant</span> - Ask me anything about Alec's experience, education, skills, projects, and career accomplishments.
+          <span className="font-semibold text-neutral-800 dark:text-neutral-200">Alec&apos;s Professional AI Assistant</span> - Ask me anything about Alec&apos;s experience, education, skills, projects, and career accomplishments.
         </p>
         <p>
-          This chatbot uses retrieval augmented generation (RAG) to access and present accurate information about Alec's professional background. Feel free to ask specific questions about his qualifications, technical expertise, work history, or educational background.
+          This chatbot uses retrieval augmented generation (RAG) to access and present accurate information about Alec&apos;s professional background. Feel free to ask specific questions about his qualifications, technical expertise, work history, or educational background.
         </p>
         {/* <p>
           Built with the{" "}
