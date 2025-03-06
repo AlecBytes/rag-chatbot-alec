@@ -25,6 +25,12 @@ If you're into AI or chatbots, let's connect and share insights!
 
 ![Image of the chatbot](only-alec.png)
 
+## License
+
+This project is **not open-source**, and no license is granted for reuse, modification, or distribution.  
+
+If you are looking to build a similar chatbot, please refer to the official [Vercel Guide](https://sdk.vercel.ai/docs/guides/rag-chatbot) and its starter code. The modifications in this repository are tailored to my specific needs, and you should create your own custom implementation.
+
 ## Credits
 
-The starter code and images used in this project are sourced from [Vercel's Guide](https://sdk.vercel.ai/docs/guides/rag-chatbot).  
+The starter code and images used in this project are sourced from [Vercel's Guide](https://sdk.vercel.ai/docs/guides/rag-chatbot).
