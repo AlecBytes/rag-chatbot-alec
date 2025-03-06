@@ -1,8 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    reactStrictMode: true,
     assetPrefix: '/chatbot-static',
-    basePath: '/chatbot',
+    // reactStrictMode: true,
+    // basePath: '/chatbot',
+    async rewrites() {
+        return {
+          beforeFiles: [
+            {
+              source: '/chatbot-static/_next/:path*',
+              destination: '/_next/:path*',
+            },
+          ],
+        };
+      }
+      
 };
 
 export default nextConfig;
