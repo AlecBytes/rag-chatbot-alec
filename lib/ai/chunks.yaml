@@ -1,110 +1,127 @@
-chunk1: >
+chunk_contact: >
   Contact Information:
-  Name is Alec Patterson, full name is Alexander Jack Patterson.
-  Email alecjp@pm.me
+  My name is Alec Patterson. You can reach me via email at alecjp@pm.me.
+  You can find my professional profile on LinkedIn at in/alexanderjackpatterson.
+  Follow my project updates and thoughts on on Bluesky at @alecbytes.bsky.social or X (Twitter) at @AlecBytes.
 
-chunk2: >
+chunk_social_media: >
   Social Media Contact:
-  Linkedin in/alexanderjackpatterson
-  X (twitter) @AlecBytes
-  Bluesky @alecbytes.bsky.social
+  You can find my professional profile on LinkedIn at in/alexanderjackpatterson.
+  Follow my project updates and thoughts on on Bluesky at @alecbytes.bsky.social or X (Twitter) at @AlecBytes.
 
-chunk3: >
+chunk_education: >
   Education:
   University of Florida in Gainesville FL.
-  Bachelor of Science cum laude with a 3.95 GPA. No course grade worse than an A minus.
+  Graduated cum laude in 2024 with a Bachelor of Science with a 3.95 GPA.
   Majored in computer science.
-  Graduated 2024.
-  Relevant Courses: Software Engineering, Data Structures and Algorithms, Operating Systems, Computer Organization, Algorithm Abstraction and Design, Advanced Programming Fundamentals, Information and Database Management Systems, Enterprise Software Engineering Practices, Information Security, Data Science
+  Alec took courses relevant to software engineering such as: Software Engineering, Data Structures and Algorithms, Operating Systems, Computer Organization, Algorithm Abstraction and Design, Advanced Programming Fundamentals, Information and Database Management Systems, Enterprise Software Engineering Practices, Information Security, Data Science
   Skills: Proficient in object-oriented programming; experienced in full-stack development and cloud computing; strong foundation in algorithm design, data structures, and performance optimization; adept in database design, management, and query optimization; well-versed in secure software development practices and agile methodologies; skilled with languages and tools such as Java, Python, JavaScript (React/Node), SQL, and C++; familiar with version control, containerization (Docker), and CI/CD pipelines.
 
-chunk4: >
+chunk_work_exp: >
   Work Experience:
-  Currently Data Migration Specialist in Implementation Services at Enumerate since 2020.
-  Collects data from clients, normalizes data, validates data, imports data, validates data, works with clients to resolve data issues.
-  Alec took used his newly acquired programming skills to speed completion of data conversion tasks. Developed & deployed a Python automation tool that cut manual data validation time by 50%. Reduced file transfer size by up to 90% through a custom JavaScript filter, accelerating enterprise data migration.
+  Data Conversion Specialist:
+  Currently Alec is a Data Conversion Specialist in Implementation Services at Enumerate, and has been in this role since 2020.
+  Alec supports customer onboarding by collecting, normalizing, mapping, importing, and validating data. works with clients to resolve data issues.
+  Alec rook it upon himself to use his newly acquired programming skills to speed completion of data conversion tasks. Developed & deployed a Python automation tool that cut manual data validation time by 50%. Reduced file transfer size by up to 90% through a custom JavaScript filter, accelerating enterprise data migration.
   Collaborated with engineers to refine the “New Community Setup Wizard,” leveraging data migration expertise to define column mappings, prevent common pitfalls, and ensure an intuitive user experience.
   Accelerated data-migration workflows by standardizing procedures and removing non-essential steps, reducing time-to-value from 90 days to 60 days.
   Alec works remotely and has a track record of completing tasks and responsibilities in a timely manner.
-
-chunk5: >
   Past Work Experience:
-  Project Manager in Customer Onboarding at TOPS Software from 2017 to 2019. Coordinated 3 to 10 customer onboarding projects/month, migrating clients from a legacy desktop application to a new SaaS platform. Streamlined communication between product, engineering, and client stakeholders for timely, high-quality launches. Conducted user training webinars and one on one trainings.
-  Customer Support Specialist at TOPS Software from 2013 to 2017. Resolved 5 to 20 customer support tickets daily, consistently performing as a top-tier service provider. Conducted advanced troubleshooting for software issues and partnered with engineering to document and fix bugs, streamlining product feedback loops. Collaborated with internal teams to translate user pain points into actionable improvements, enhancing overall customer satisfaction.
+  Project Manager:
+  Before specializing in data conversions, Alec was a Project Manager in Customer Onboarding at TOPS Software. 
+  He was in the project manager role from 2017 to 2019. 
+  As a project manager, Alec coordinated 3 to 10 customer onboarding projects/month, migrating clients from a legacy desktop application to a new SaaS platform. 
+  Also, Conducted user training webinars and one on one trainings.
+  Streamlined communication between product, engineering, and client stakeholders for timely, high-quality launches.
+  Support: 
+  Alec start as a Product and Technical Support Specialist at TOPS Software in 2013 until being promoted in 2017. 
+  In Support, Alec resolved 5 to 20 customer support tickets daily, consistently performing as a top-tier service provider. 
+  Conducted advanced troubleshooting for software issues and partnered with engineering to document and fix bugs, streamlining product feedback loops. 
+  Collaborated with internal teams to translate user pain points into actionable improvements, enhancing overall customer satisfaction.
 
-chunk6: >
-  Roles of interest:
-  Software Engineer
-  Software Developer
-  Full Stack Developer
-  AI Engineer
-  Machine Learning Engineer
-  Backend Engineer
-  Cloud Engineer
-  Web Developer
-  Mobile Developer
-  Front-end developer
+chunk_roles: >
+  Roles and interest:
+    Looking for interesting opportunities in software engineering related roles such as 
+    Software Engineer
+    Software Developer
+    Full Stack Developer
+    AI Engineer
+    Machine Learning Engineer
+    Backend Engineer
+    Cloud Engineer
+    Web Developer
+    Mobile Developer
+    Front-end developer
 
-chunk8: >
-  Programming Languages & Developer Tools Alec has used:
-  Java, JavaScript, TypeScript, Python, C++, R, HTML, CSS, SASS, Tailwind CSS, Markdown, Vue.js, React, Next.js, Node.js
+chunk_programming_lang: >
+  Programming Languages has used: Java, JavaScript, TypeScript, Python, C++, R, HTML, CSS, SASS, Tailwind CSS, Markdown, Vue.js, React, Next.js, Node.js.
+  Most used: Java, C++, Javascript, React, Nodejs, PostgreSQL.
+  For personal projects: Python, Next.js, PostgreSQL.
+  Alec is open and eger to learn new programming languages and learn new technology.
 
-chunk9: >
-  Most used programming languages:
-  Python and Next.js for personal projects.
-  Java, C++, Javascript, React, Nodejs, PostgreSQL
   
-chunks10: >
-  Developer Tools:
-  git, github, Regex, npm, Cypress, Postman, Apollo, GraphQL, Cypress, Postman, Apollo, GraphQL, MongoDB Cloud, Docker, Linux, Ubuntu, Windows, Bash, PowerShell, Vim, CMake, PyTorch, TensorFlow, scikit-learn, LaTeX, Vite, Jira
+chunk_tools: >
+  Developer Tools: git, github, Regex, npm, Cypress, Postman, Apollo, GraphQL, Cypress, Postman, Apollo, GraphQL, MongoDB Cloud, Docker, Linux, Ubuntu, Windows, Bash, PowerShell, Vim, CMake, PyTorch, TensorFlow, scikit-learn, LaTeX, Vite, Jira.
+  Could and Dev Ops tools: AWS EC2, Supabase, Vercel, Oracle Cloud Compute, Oracle Cloud DB.
+  IDE: Visual Studio, Visual Studio Code, IntelliJ IDEA.
 
-chunks11: >
-  Could and Dev Ops tools:
-  AWS EC2, Supabase, Vercel, Oracle Cloud Compute, Oracle Cloud DB
-
-chunks12: >
-  IDE:
-  Visual Studio, Visual Studio Code, IntelliJ IDEA
-  
-chunks13: >
-  Alec is open and eger to learn new programming languages and learn new technology
-
-chunks14: >
+chunk_areas_of_interest: >
   Areas of interest:
   Not stuck on any specific technology, it is more important to have intellectually stimulating work and a positive work culture.
   Generally interested in software engineering, ai engineering, machine learning, web development, mobile development.
   Open to unplanned but interesting opportunities.
 
-chunk15: >
-  Project: Resume RAG Chatbot
-  Description: Started with a Vercel RAG basic template, then modified the prompt and tools to better suit my needs. Carefully chunked my resume and personal information, and embedded those chunks into a vector database to enhance context retrieval. The system dynamically pulls relevant data to generate informed, personalized responses.
-  Process:
-    - Began with a Vercel RAG basic template.
-    - Modified prompts and available tools.
-    - Chunked resume and personal information into high-quality segments.
-    - Embedded the chunks into a vector database for efficient retrieval.
-    - Implemented a dynamic retrieval pipeline to augment chatbot responses.
-  Tech Stack: OpenAI API (GPT-4o), Vercel AI SDK, Next.js, Python, Supabase PostgreSQL vector database
-  Outcome: Developed a context-aware chatbot that can accurately answer questions about my experience, skills, educations, and interview related questions.
+chunk_projects_personal: >
+  Personal Projects: Alec has developed two personal projects that complement each other: A portfolio website and RAG chatbot that can answer questions about Alec.
+    Project: Resume RAG Chatbot
+      Description: Started with a Vercel RAG basic template, then modified the prompt and tools to better suit my needs. Carefully chunked my resume and personal information, and embedded those chunks into a vector database to enhance context retrieval. The system dynamically pulls relevant data to generate informed, personalized responses.
+      Alec followed this process to build the RAG chatbot:
+        Step 1 Began with a Vercel RAG basic template.
+        Step 2 Modified prompts and available tools.
+        Step 3 Chunked resume and personal information into high-quality segments.
+        Step 4 Embedded the chunks into a vector database for efficient retrieval.
+        Step 5 Implemented a dynamic retrieval pipeline to augment chatbot responses.
+        Step 6 Testing and Refinement
+      To develop the chatbot, Alec used this tech Stack: OpenAI API (GPT-4o), Vercel AI SDK, Next.js, Python, Supabase PostgreSQL vector database.
+      The project outcome is a context-aware chatbot that can accurately answer questions about my experience, skills, educations, and interview related questions.
+    Project: Personal Portfolio Website
+      Tech Stack: Next.js, Tailwind CSS, Three.js, Vercel.
+      Description: Developed a dynamic portfolio website that showcases my technical skills and projects. The site features visual Skill Icons representing various programming languages and developer tools, an immersive Gen AI 3D model generated from my graduation photo (enhanced with 3D assets from Sketchfab), smooth animations and interactive effects using framer-motion and Three.js, a seamless email contact form powered by react-hook-form, and integrated GitHub Stats API to highlight my contributions.
+      Key Features:
+        - Engaging Animations & Effects: Implements smooth transitions and interactive elements with Three.js and framer-motion.
+        - GitHub Stats API: Dynamically showcases my GitHub contributions.
+        - Skill Icons: Displays visual representations of key programming languages and developer tools.
+        - Gen AI 3D Model: Utilizes meshy.ai and Sketchfab assets to find and create a unique 3D model from my graduation photo.
+        - Email Contact Form: Offers a user-friendly way to contact me using react-hook-form.
+      Outcome: This project not only highlights my proficiency with modern web technologies but also demonstrates my ability to blend creative design with technical functionality, making it a standout piece in my portfolio for innovative tech roles.
+      Live site: AlecBytes.com
+      GitHub: AlecBytes/portfolio
 
-chunk_project_portfolio: >
-  Project: Personal Portfolio Website (Feb 2025).
-  Tech Stack: Next.js, Tailwind CSS, Three.js, Vercel.
-  Description: Developed a dynamic portfolio website that showcases my technical skills and projects. The site features visual Skill Icons representing various programming languages and developer tools, an immersive Gen AI 3D model generated from my graduation photo (enhanced with 3D assets from Sketchfab), smooth animations and interactive effects using framer-motion and Three.js, a seamless email contact form powered by react-hook-form, and integrated GitHub Stats API to highlight my contributions.
-  Key Features:
-    - Engaging Animations & Effects: Implements smooth transitions and interactive elements with Three.js and framer-motion.
-    - GitHub Stats API: Dynamically showcases my GitHub contributions.
-    - Skill Icons: Displays visual representations of key programming languages and developer tools.
-    - Gen AI 3D Model: Utilizes meshy.ai and Sketchfab assets to find and create a unique 3D model from my graduation photo.
-    - Email Contact Form: Offers a user-friendly way to contact me using react-hook-form.
-  Outcome: This project not only highlights my proficiency with modern web technologies but also demonstrates my ability to blend creative design with technical functionality, making it a standout piece in my portfolio for innovative tech roles.
-  Live site: AlecBytes.com
-  GitHub: AlecBytes/portfolio
+chunk_project_school: >
+  School projects: Alec contributed to several interesting software development projects at the University of Florida: Baseball Data Trend Visualizations, PantryPal Food Donation Platform, ChainLink: Social App for UF Cyclists, and AI Prediction of Song Genre and Popularity.
+  Project: Baseball Data Trend Visualizations
+    Tech Stack: SQL, Vue.js, Node.js, Oracle Cloud, Quasar, Express.
+    Description: Developed five interactive visualizations of baseball statistical data hosted on Oracle Cloud with an Autonomous SQL Database.
+    Key Features: Frontend built with Vue.js and Quasar; Backend powered by Node.js and Express; REST API for querying and fetching data with SQL; Authored optimized SQL queries to uncover key data trends in baseball statistics.
+    Live site: baseballdatatrends.com
+    GitHub: AlecBytes/dbProject
+  Project: PantryPal Food Donation Platform
+    Tech Stack: Vue.js, Node.js, PostgreSQL, Supabase Auth, Vercel
+    Led a 3-person team, focusing on secure architecture, efficient data flow, and real-time concurrency.
+    Engineered a dynamic feed & notification system connecting restaurants' surplus food with local charities.
+    Live site: pantrypal-lac.vercel.app
+    GitHub: AlecBytes/PantryPal
+  Project: ChainLink - Social App for Cyclists
+    Tech Stack: React, JavaScript, Node.js, MongoDB, AWS
+    Led security enhancements and new features (friend system, ride sharing, password reset flow).
+    Collaborated with a 3-person dev team for production readiness using AWS.
 
-chunk_project_baseball_data: >
-  Project: Baseball Data Trend Visualizations (Aug 2023 - Dec 2023).
-  Tech Stack: SQL, Vue.js, Node.js, Oracle Cloud, Quasar, Express.
-  Description: Developed five interactive visualizations of baseball statistical data hosted on Oracle Cloud with an Autonomous SQL Database.
-  Key Features: Frontend built with Vue.js and Quasar; Backend powered by Node.js and Express; REST API for querying and fetching data with SQL; Authored optimized SQL queries to uncover key data trends in baseball statistics.
-  Live site: baseballdatatrends.com
-  GitHub: AlecBytes/dbProject
+chunk_values: >
+  Culture and Values:
+    My core values guide both my professional pursuits and personal life.
+    I believe in being highly adaptable, much like leading tech companies that continuously evolve to meet shifting market demands.
+    Integrity is essential—I commit to honest, transparent actions and ethical decision-making, building trust with every interaction.
+    Collaboration is at the heart of innovation; I thrive in team settings where diverse perspectives lead to breakthrough solutions.
+    My drive fuels a relentless pursuit of excellence, ensuring I consistently push boundaries and deliver impactful results.
+    I value creation and original thinking, always eager to learn and innovate, just as companies like Google encourage creative experimentation.
+    Finally, I put family first, recognizing that a strong, supportive foundation is crucial for lasting success and overall well-being.

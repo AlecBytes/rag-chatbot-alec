@@ -1,2 +1,5 @@
 2025-03-03 12:32:15,971 - embed-chunks - INFO - Loading chunks from chunks.yaml file
 2025-03-03 12:32:15,971 - embed-chunks - ERROR - Failed to load chunks: [Errno 2] No such file or directory: 'chunks.yaml'
+2025-03-05 17:46:47,758 - embed-chunks - INFO - Loading chunks from chunks.yaml file
+2025-03-05 17:46:47,759 - embed-chunks - ERROR - Failed to load chunks: [Errno 2] No such file or directory: 'chunks.yaml'
+2025-03-05 17:46:47,759 - embed-chunks - ERROR - Exiting program due to critical error

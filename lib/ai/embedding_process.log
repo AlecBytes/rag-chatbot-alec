@@ -160,3 +160,44 @@ A detailed migration guide is available here: https://github.com/openai/openai-p
 2025-03-03 12:42:05,989 - embed-chunks - INFO - Successfully processed chunk chunk6 with resource id f7260d93-0529-4964-8ce7-a2c1b8933617
 2025-03-03 12:42:05,989 - embed-chunks - INFO - Processing complete. Successfully processed 6 chunks. Failed: 0
 2025-03-03 12:42:05,990 - embed-chunks - INFO - Database connection closed
+2025-03-05 17:48:01,738 - embed-chunks - INFO - Loading chunks from chunks.yaml file
+2025-03-05 17:48:01,742 - embed-chunks - INFO - Successfully loaded 11 chunks from YAML file
+2025-03-05 17:48:01,743 - embed-chunks - INFO - OpenAI API key loaded from environment variables
+2025-03-05 17:48:01,743 - embed-chunks - INFO - Connecting to database
+2025-03-05 17:48:02,041 - embed-chunks - INFO - Database connection established
+2025-03-05 17:48:02,041 - embed-chunks - INFO - Beginning processing of chunks
+2025-03-05 17:48:02,041 - embed-chunks - INFO - Processing chunk: chunk_contact
+2025-03-05 17:48:02,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:03,009 - embed-chunks - INFO - Successfully processed chunk chunk_contact with resource id d973e60a-0226-4ff4-a539-171c5092dd75
+2025-03-05 17:48:03,009 - embed-chunks - INFO - Processing chunk: chunk_social_media
+2025-03-05 17:48:05,194 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:05,438 - embed-chunks - INFO - Successfully processed chunk chunk_social_media with resource id 546b5009-2034-40e1-b90e-760271545e23
+2025-03-05 17:48:05,438 - embed-chunks - INFO - Processing chunk: chunk_education
+2025-03-05 17:48:05,781 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:06,034 - embed-chunks - INFO - Successfully processed chunk chunk_education with resource id d2baf23a-6a77-4030-8d38-f85229c1067d
+2025-03-05 17:48:06,035 - embed-chunks - INFO - Processing chunk: chunk_work_exp
+2025-03-05 17:48:06,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:06,507 - embed-chunks - INFO - Successfully processed chunk chunk_work_exp with resource id 664a206e-6046-410f-a842-e4d901a2c922
+2025-03-05 17:48:06,507 - embed-chunks - INFO - Processing chunk: chunk_roles
+2025-03-05 17:48:06,720 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:06,972 - embed-chunks - INFO - Successfully processed chunk chunk_roles with resource id eef168f7-7bcc-4279-bb64-b76a70943596
+2025-03-05 17:48:06,972 - embed-chunks - INFO - Processing chunk: chunk_programming_lang
+2025-03-05 17:48:07,133 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:07,385 - embed-chunks - INFO - Successfully processed chunk chunk_programming_lang with resource id 2d8e4966-8de7-4e6f-98f0-03841fbf57b1
+2025-03-05 17:48:07,386 - embed-chunks - INFO - Processing chunk: chunk_tools
+2025-03-05 17:48:07,836 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:08,083 - embed-chunks - INFO - Successfully processed chunk chunk_tools with resource id bccea389-37ab-4442-870e-21150bc0cef6
+2025-03-05 17:48:08,084 - embed-chunks - INFO - Processing chunk: chunk_areas_of_interest
+2025-03-05 17:48:08,274 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:08,523 - embed-chunks - INFO - Successfully processed chunk chunk_areas_of_interest with resource id 851379e8-0c4c-4a97-ac1b-10fbc6d42dcc
+2025-03-05 17:48:08,523 - embed-chunks - INFO - Processing chunk: chunk_projects_personal
+2025-03-05 17:48:08,771 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:09,018 - embed-chunks - INFO - Successfully processed chunk chunk_projects_personal with resource id 8af34312-6f2f-4cba-a6b2-1294883d14d2
+2025-03-05 17:48:09,019 - embed-chunks - INFO - Processing chunk: chunk_project_school
+2025-03-05 17:48:09,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:09,413 - embed-chunks - INFO - Successfully processed chunk chunk_project_school with resource id 6de72ce4-2981-40a8-9fd6-101e37065387
+2025-03-05 17:48:09,413 - embed-chunks - INFO - Processing chunk: chunk_values
+2025-03-05 17:48:09,553 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-05 17:48:09,798 - embed-chunks - INFO - Successfully processed chunk chunk_values with resource id de883359-14ce-4d6f-9dc0-f07bd63b6bda
+2025-03-05 17:48:09,799 - embed-chunks - INFO - Processing complete. Successfully processed 11 chunks. Failed: 0
+2025-03-05 17:48:09,799 - embed-chunks - INFO - Database connection closed
