@@ -23,13 +23,8 @@ const ProjectOverview = () => {
         <p>
           This chatbot uses retrieval augmented generation (RAG) to access and present accurate information about Alec&apos;s professional background. Feel free to ask specific questions about his qualifications, technical expertise, work history, or educational background.
         </p>
-        <p>
-          <a
-            href="https://www.alecbytes.com/"
-            className="text-blue-500"
-          >
-            Back
-          </a>
+        <p className="italic text-red-500">
+          *Please note, this is an early prototype and responses may not always be accurate.
         </p>
         {/* <p>
           Built with the{" "}
