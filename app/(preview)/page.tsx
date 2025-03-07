@@ -14,15 +14,19 @@ import { toast } from "sonner";
 
 export default function Chat() {
   const [toolCall, setToolCall] = useState<string>();
+  const [showLoading, setShowLoading] = useState(false);
+  
   const { messages, input, handleInputChange, handleSubmit, isLoading } =
     useChat({
       maxSteps: 4,
       api: "/chatbot/api/chat",
       onToolCall({ toolCall }) {
         setToolCall(toolCall.toolName);
+        setShowLoading(true);
       },
       onError: (error) => {
         toast.error("You've been rate limited, please try again later!");
+        setShowLoading(false);
       },
     });
 
@@ -30,36 +34,39 @@ export default function Chat() {
 
   useEffect(() => {
     if (messages.length > 0) setIsExpanded(true);
-  }, [messages]);
+  }, [messages.length]);
 
-  // Reset toolCall when a new assistant message is received
+  // Reset toolCall and manage loading state when messages change
   useEffect(() => {
     const lastMessage = messages[messages.length - 1];
     if (lastMessage && lastMessage.role !== 'user') {
-      setToolCall(undefined);
+      // Only hide loading after a brief delay to prevent flashing
+      setTimeout(() => {
+        setToolCall(undefined);
+        setShowLoading(false);
+      }, 500);
+    } else if (lastMessage && lastMessage.role === 'user') {
+      setShowLoading(true);
     }
-  }, [messages]);
+  }, [messages.length]);
 
   const currentToolCall = useMemo(() => {
     const tools = messages?.slice(-1)[0]?.toolInvocations;
-    if (tools && toolCall === tools[0].toolName) {
+    if (tools && tools[0] && toolCall === tools[0].toolName) {
       return tools[0].toolName;
     } else {
       return undefined;
     }
-  }, [toolCall, messages]);
+  }, [toolCall, messages.length]);
 
   const awaitingResponse = useMemo(() => {
-    if (
-      isLoading &&
-      currentToolCall === undefined &&
-      messages.slice(-1)[0].role === "user"
-    ) {
+    // Show loading state if any of these conditions are true
+    if (showLoading || isLoading || 
+        (messages.length > 0 && messages[messages.length - 1]?.role === "user")) {
       return true;
-    } else {
-      return false;
     }
-  }, [isLoading, currentToolCall, messages]);
+    return false;
+  }, [isLoading, showLoading, messages.length]);
 
   const userQuery: Message | undefined = messages
     .filter((m) => m.role === "user")
@@ -68,6 +75,12 @@ export default function Chat() {
   const lastAssistantMessage: Message | undefined = messages
     .filter((m) => m.role !== "user")
     .slice(-1)[0];
+
+  // Add handler for form submission to set loading state
+  const handleFormSubmit = (e: React.FormEvent) => {
+    setShowLoading(true);
+    handleSubmit(e);
+  };
 
   return (
     <div className="flex justify-center items-start sm:pt-16 min-h-screen w-full dark:bg-neutral-900 px-4 md:px-0 py-4">
@@ -90,7 +103,7 @@ export default function Chat() {
           )}
         >
           <div className="flex flex-col w-full justify-between gap-2">
-            <form onSubmit={handleSubmit} className="flex space-x-2">
+            <form onSubmit={handleFormSubmit} className="flex space-x-2">
               <Input
                 className={`bg-neutral-100 text-base w-full text-neutral-700 dark:bg-neutral-700 dark:placeholder:text-neutral-400 dark:text-neutral-300`}
                 minLength={3}
@@ -109,16 +122,20 @@ export default function Chat() {
               <AnimatePresence>
                 {awaitingResponse || currentToolCall ? (
                   <div className="px-2 min-h-12">
-                    <div className="dark:text-neutral-400 text-neutral-500 text-sm w-fit mb-1">
-                      {userQuery.content}
-                    </div>
+                    {userQuery && (
+                      <div className="dark:text-neutral-400 text-neutral-500 text-sm w-fit mb-1">
+                        {userQuery.content}
+                      </div>
+                    )}
                     <Loading tool={currentToolCall} />
                   </div>
                 ) : lastAssistantMessage ? (
                   <div className="px-2 min-h-12">
-                    <div className="dark:text-neutral-400 text-neutral-500 text-sm w-fit mb-1">
-                      {userQuery.content}
-                    </div>
+                    {userQuery && (
+                      <div className="dark:text-neutral-400 text-neutral-500 text-sm w-fit mb-1">
+                        {userQuery.content}
+                      </div>
+                    )}
                     <AssistantMessage message={lastAssistantMessage} />
                   </div>
                 ) : null}
